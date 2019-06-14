@@ -20,7 +20,8 @@ define([
 	"js/LazyContentPane",
 	"dojo/has!webpack?dojo-webpack-plugin/amd/dojoES6Promise",
 	"css!dijit/themes/claro/claro.css",
-	"css!theme/sample.less"
+	"css!theme/sample.less",
+	"./myapp/CustomWidget"
 ], function(ready, parser) {
 	ready(function() {
 		parser.parse();

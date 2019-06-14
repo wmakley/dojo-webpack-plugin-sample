@@ -33,6 +33,11 @@ function getConfig(env) {
 				name: 'dojox',
 				location: env.dojoRoot + '/dojox',
 				lib: '.'
+			},
+			{
+				name: 'myapp',
+				location: './myapp',
+				lib: '.'
 			}
 		],
 
